@@ -48,4 +48,4 @@ describe('Login de Usuário', () => {
       cy.url().should('include', '/home'); 
       cy.contains('Produtos').should('be.visible'); 
     });
-  });
+  })
